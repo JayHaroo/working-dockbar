@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import logo from "./assets/logo.png";
+import Adv from "./component/adv.jsx";
 import {
   Drawer,
   Button,
@@ -59,7 +60,9 @@ function App() {
               <li>FAQ</li>
             </ul>
           </Drawer>
+          <div className="flex justify-center"><Adv /></div>
         </React.Fragment>
+        
       </body>
     </>
   );
